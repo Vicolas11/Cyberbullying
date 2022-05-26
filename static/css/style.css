@@ -1,3 +1,25 @@
+/* Customerized ScrollBAR */
+*::-webkit-scrollbar-track
+{
+	--webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;margin-left:-10px!important;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	margin-left:-10px;
+	background-color: #F5F5F5!important;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: linear-gradient(to right, #5846f9 0%, #4935fd 51%, #4430fc 100%);
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -682,7 +704,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  background: #FABD4A;
+  color: rgba(123, 39, 216, 0.8);
   text-decoration: none;
 }
