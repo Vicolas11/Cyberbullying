@@ -5,4 +5,4 @@ A Flask Web APP which uses machine learning to detect tweet post/text and then c
 ## TextArea
 ![CyberHomeView](https://user-images.githubusercontent.com/46172140/170389864-f92e892d-a5fe-49e4-a095-93ea212f9cd6.jpg)
 ## Live Preview
-https://cyberbullyingapp.herokuapp.com/
+https://cyberbullying.onrender.com
